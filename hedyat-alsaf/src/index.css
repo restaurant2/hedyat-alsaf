@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+/* Arabic font (system fallback). You can import a custom font later if you like */
+body { font-family: 'Tajawal', 'Cairo', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
